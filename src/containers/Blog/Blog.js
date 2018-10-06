@@ -36,28 +36,28 @@ class Blog extends Component {
                 </li>
                 <li>
                   <Dropdown options={{ hover: true, constrainWidth: false, belowOrigin: true }} trigger={
-                    <Link to="/Test1/" style={{ marginRight: '30px' }} >
+                    <Link to="/Test1/" style={{ marginRight: '30px' }} exact>
                       VIP升学规划
                     </Link>
                   }>
-                    <NavLink activeClassName="black-text" to="/Test1/" >
+                    <NavLink activeClassName="black-text" to="/Test1/" exact>
                       背景提升
                     </NavLink>
-                    <NavLink activeClassName="black-text" to="/Test1/" >
+                    <NavLink activeClassName="black-text" to="/Test1/" exact>
                       高中规划
                     </NavLink>
-                    <NavLink activeClassName="black-text" to="/Test1/" >
+                    <NavLink activeClassName="black-text" to="/Test1/" exact>
                       社区大学规则
                     </NavLink>
                   </Dropdown>
                 </li>
                 <li>
                   <Dropdown options={{ hover: true, constrainWidth: false, belowOrigin: true }} trigger={
-                    <Link style={{ marginRight: '30px' }} to="/Test2/" >
+                    <Link style={{ marginRight: '30px' }} to="/Test2/" exact>
                       初高中申请
                     </Link>
                   }>
-                    <NavLink activeClassName="black-text lieffect" to="/Test2/" >
+                    <NavLink activeClassName="black-text lieffect" to="/Test2/" exact>
                       美国夏令营
                     </NavLink>
                   </Dropdown>
@@ -65,20 +65,20 @@ class Blog extends Component {
                 </li>
                 <li>
                   <Dropdown options={{ hover: true, constrainWidth: false, belowOrigin: true }} trigger={
-                    <Link style={{ marginRight: '30px' }} to="/Test3/"  >
+                    <Link style={{ marginRight: '30px' }} to="/Test3/" exact >
                       本硕博申请
                     </Link>
                   }>
-                    <NavLink activeClassName="black-text lieffect" to="/Test3/" >
+                    <NavLink activeClassName="black-text lieffect" to="/Test3/" exact>
                       高中直升
                     </NavLink>
-                    <NavLink activeClassName="black-text lieffect" to="/Test3/">
+                    <NavLink activeClassName="black-text lieffect" to="/Test3/" exact>
                       社区大学
                     </NavLink>
-                    <NavLink activeClassName="black-text lieffect" to="/Test3/" >
+                    <NavLink activeClassName="black-text lieffect" to="/Test3/" exact>
                       普通申请
                     </NavLink>
-                    <NavLink activeClassName="black-text lieffect" to="/Test3/" >
+                    <NavLink activeClassName="black-text lieffect" to="/Test3/" exact>
                       VIP招生官申请
                     </NavLink>
                   </Dropdown>
@@ -99,12 +99,12 @@ class Blog extends Component {
 
         </header>
         <Switch>
-          <Route path="/Test1/" component={Test1} />
-          <Route path="/Test2/" component={Test2} />
-          <Route path="/Test3/" component={Test3} />
-          <Route path="/Test4/" component={Test4} />
-          <Route path="/Contact/" component={Contact} />
-          <Route path="/" exact component={Homepage} />
+          <Route path="/Test1/" exact component={Test1} />
+          <Route path="/Test2/" exact component={Test2} />
+          <Route path="/Test3/" exact component={Test3} />
+          <Route path="/Test4/" exact component={Test4} />
+          <Route path="/Contact/" exact component={Contact} />
+          <Route path="/" component={Homepage} />
         </Switch>
       </div >
 
