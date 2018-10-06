@@ -5,12 +5,11 @@ import Blog from './containers/Blog/Blog';
 class App extends Component {
   render() {
     return (
-
-      <div className="App">
-        <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div className="App">
           <Blog />
-        </BrowserRouter>
-      </div>
+        </div>
+      </BrowserRouter>
     )
   }
 }
