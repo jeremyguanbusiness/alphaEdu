@@ -22,7 +22,7 @@ class Blog extends Component {
           <nav>
             <div className="nav-wrapper white">
               <div className="brand-logo ">
-                <NavLink to="/" exact>
+                <NavLink to="/alphaEdu/" exact>
                   <img src={logo} alt="logo" className="logo-resize responsive-img" />
 
                 </NavLink>
@@ -30,7 +30,7 @@ class Blog extends Component {
 
               <ul className="arrange right hide-on-med-and-down">
                 <li>
-                  <NavLink to="/" style={{ marginRight: '30px' }} exact>
+                  <NavLink to="/alphaEdu/" style={{ marginRight: '30px' }} exact>
                     首页
                   </NavLink>
                 </li>
@@ -104,7 +104,8 @@ class Blog extends Component {
           <Route path="/Test3/" exact component={Test3} />
           <Route path="/Test4/" exact component={Test4} />
           <Route path="/Contact/" exact component={Contact} />
-          <Route path="/" exact component={Homepage} />
+          <Route path="/alphaEdu/" exact component={Homepage} />
+          <Route path="/" component={Homepage} />
         </Switch>
       </div >
 
