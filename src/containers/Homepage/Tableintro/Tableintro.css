@@ -1,0 +1,23 @@
+td{
+  border: 1px solid #e0e0e0 !important;
+}
+.col1{
+  height: 100px !important;
+  width: 300px;
+  color: #757575;
+  font-weight: bold;
+}
+.col1-1{
+  height: 100px !important;
+  width: 500px;
+  color: #757575;
+}
+.fontChange{
+  font-size: 18px;
+  font-weight: 200;
+  border-right: 1px solid white !important;
+}
+
+.margintop{
+  margin-top: 50px !important;
+}

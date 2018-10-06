@@ -1,0 +1,33 @@
+.logo-resize{
+  margin-left: 30%;
+  margin-top: 4%;
+  width: 280px;
+}
+
+
+.Blog a{
+  text-align: center;
+  color: black;
+}
+
+.Blog li a:hover{
+  color: 	#D4AF37;
+  transition: all 0.4s;
+}
+
+.definColor{
+  color: black;
+}
+
+.arrange{
+  margin-right: 60px;
+}
+
+.lifix{
+  margin-right: 50px;
+}
+
+nav {
+  height: 90px !important; 
+  line-height: 90px !important;
+}

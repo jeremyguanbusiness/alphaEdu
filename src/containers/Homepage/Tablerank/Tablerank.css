@@ -1,0 +1,34 @@
+.colshort{
+  width: 80px !important;
+  padding: 3px !important;
+  border-right: 1px solid white;
+}
+
+.colshort-1{
+  width: 300px !important;
+  padding: 3px !important;
+  border-right: 1px solid white;
+}
+
+.tableTitle{
+  border: 1px solid white;
+  font-size: 20px;
+  padding: 8px;
+}
+.rowFix{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.whiteBorder{
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.zoomout:hover{
+  transform: scale(1.04);
+  transition: all 0.1s;
+  background-color: #80deea !important;
+
+}
+

@@ -1,0 +1,43 @@
+.marginfix{
+  position: relative;
+  top: -90px;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90% !important;
+}
+
+.margin-maintain{
+  height: 240px;
+  width: 33% !important;
+}
+
+.widthFix{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+.vertical{
+  border: none;
+}
+
+.margintopsmall{
+  margin-top: 2%;
+}
+.margintopsmall-1{
+  margin-top: 4%;
+}
+.margintopmedium{
+  margin-top: 8% !important;
+}
+
+.borderRight{
+  border-right: 2px solid white;
+}
+.topmargin{
+  margin-top: 20% ;
+}

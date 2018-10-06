@@ -1,0 +1,20 @@
+.header-sub{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 20%;
+  color:#64b5f6;
+}
+
+.header-main{
+  margin-top: 40px;
+  color: white;
+  word-spacing: -5px;
+  font-size: 55px;
+}
+
+.header-main-sub{
+  font-weight: bold;
+}
