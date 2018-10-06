@@ -104,7 +104,7 @@ class Blog extends Component {
           <Route path="/Test3/" exact component={Test3} />
           <Route path="/Test4/" exact component={Test4} />
           <Route path="/Contact/" exact component={Contact} />
-          <Route path="/" component={Homepage} />
+          <Route path="/" exact component={Homepage} />
         </Switch>
       </div >
 
